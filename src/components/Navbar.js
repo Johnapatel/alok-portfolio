@@ -42,9 +42,9 @@ export default function Navbar() {
   }, [mode]);
 
   return (
-    <header className="w-full px-4 lg:px-32 py-8 font-medium flex flex-col lg:flex-row items-center justify-between dark:text-light relative gap-4 lg:gap-0">
+    <header className="w-full px-4 lg:px-32 py-8 font-medium flex flex-col md:flex-row items-center justify-between dark:text-light relative gap-4 md:gap-0">
       
-      <nav className="flex items-center space-x-4 lg:space-x-8 text-sm lg:text-lg">
+      <nav className="flex flex-wrap items-center justify-center space-x-2 md:space-x-4 lg:space-x-8 text-xs md:text-sm lg:text-lg">
         <CustomLink href="/" title="Home" />
         <CustomLink href="/about" title="About" />
         <CustomLink href="/projects" title="Projects" />
@@ -53,7 +53,7 @@ export default function Navbar() {
       </nav>
 
       {/* Center Logo */}
-      <div className="lg:absolute lg:left-[50%] lg:top-2 lg:translate-x-[-50%] flex items-center justify-center mt-2 lg:mt-0">
+      <div className="hidden md:flex md:absolute md:left-[50%] md:top-2 md:translate-x-[-50%] items-center justify-center">
         <Link href="/" className="w-16 h-16 bg-dark text-light dark:bg-light dark:text-dark flex items-center justify-center rounded-full text-2xl font-bold border border-solid border-transparent hover:bg-light hover:text-dark hover:border-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light transition-all duration-300 overflow-hidden">
           <Image src={profilePic} alt="AP" className="w-full h-full object-cover" />
         </Link>

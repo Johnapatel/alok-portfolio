@@ -4,7 +4,7 @@ import { useContactModal } from '@/context/ContactContext';
 export default function HireMe() {
   const { openContactModal } = useContactModal();
   return (
-    <div className="fixed left-4 bottom-4 flex items-center justify-center overflow-hidden z-20">
+    <div className="fixed left-4 bottom-4 items-center justify-center overflow-hidden z-20 hidden md:flex">
       <div className="w-48 h-auto flex items-center justify-center relative">
         <svg viewBox="0 0 200 200" className="animate-[spin_8s_linear_infinite] fill-dark dark:fill-light">
           <path id="curve" d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0" fill="transparent" />
