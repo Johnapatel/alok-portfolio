@@ -10,7 +10,7 @@ export default function HireMe() {
           <path id="curve" d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0" fill="transparent" />
           <text className="text-[28px] font-bold uppercase tracking-[12px]">
             <textPath href="#curve" startOffset="0">
-              AI Engineer • Web Dev •
+              AI/ML Engineer • Web Dev •
             </textPath>
           </text>
         </svg>
