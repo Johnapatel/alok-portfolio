@@ -1,0 +1,49 @@
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.tItem {
+  display: flex;
+  gap: 18px;
+}
+
+.coBadge {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--panel);
+  border: 1.5px solid var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 15px;
+  color: var(--accent);
+}
+
+.tTime {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+
+.tRole {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.tRole span {
+  color: var(--text-dim);
+  font-weight: 400;
+}
+
+.tDesc {
+  color: var(--text-dim);
+  font-size: 14.5px;
+  max-width: 620px;
+}

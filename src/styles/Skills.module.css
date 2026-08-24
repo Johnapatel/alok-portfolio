@@ -1,0 +1,72 @@
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 60px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 720px) {
+  .skillsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.skillCatLabel {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.skillChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skillChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 100px;
+  color: var(--text-dim);
+  background: var(--panel);
+}
+
+.marquee {
+  overflow: hidden;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 20px 0;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.marqueeTrack {
+  display: flex;
+  width: max-content;
+  gap: 44px;
+}
+
+.marqueeTrack span {
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  color: var(--text-faint);
+  white-space: nowrap;
+}
+
+.marqueeTrack span.dotSep {
+  color: var(--accent);
+  margin-left: 44px;
+}

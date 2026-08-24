@@ -1,0 +1,67 @@
+.achList {
+  display: flex;
+  flex-direction: column;
+}
+
+.achItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 14.5px;
+}
+
+.achItem:last-child {
+  border-bottom: none;
+}
+
+.achIcon {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--panel);
+  color: var(--accent);
+  border: 1px solid var(--line);
+}
+
+.achIcon :global(.icon) {
+  width: 16px;
+  height: 16px;
+}
+
+.label {
+  flex: 1;
+}
+
+.tag {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--text-faint);
+}
+
+.contactInner {
+  text-align: left;
+}
+
+.bigLine {
+  font-size: clamp(30px, 4.4vw, 48px);
+  font-weight: 800;
+  max-width: 700px;
+  line-height: 1.2;
+  margin-bottom: 32px;
+}
+
+.accentText {
+  color: var(--accent);
+}
+
+.contactLinks {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
