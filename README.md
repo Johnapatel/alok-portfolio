@@ -3,7 +3,7 @@
 Welcome to the source code for my personal portfolio! This is a custom-built, modern, and highly responsive web application designed to showcase my projects, certifications, and experience in the AI/ML space.
 
 ## 🚀 Live Demo
-[https://johnalokpatel.com](https://johnalokpatel.com)
+[https://johnalokpatel.com](https://johnalokpatel.vercel.app/)
 
 ## 🛠️ Tech Stack
 - **Framework:** Next.js (React)
