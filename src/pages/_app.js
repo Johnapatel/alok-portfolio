@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import { AnimatePresence } from 'framer-motion';
 import TransitionEffect from '@/components/TransitionEffect';
 import { ContactProvider } from '@/context/ContactContext';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -26,6 +27,7 @@ export default function App({ Component, pageProps }) {
           </AnimatePresence>
         </Layout>
       </ContactProvider>
+      <SpeedInsights />
     </div>
   )
 }
