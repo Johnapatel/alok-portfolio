@@ -21,6 +21,23 @@ export default function Projects() {
           <div className="grid grid-cols-12 gap-24 gap-y-32 mt-8">
             <div className="col-span-12">
               <FeaturedProject
+                title="AI-Powered Support Desk Analytics Platform"
+                img={null}
+                tools="Python, FastAPI, Streamlit, SQLite, Pydantic, Ollama (Qwen2.5:7B), Groq, Uvicorn, Docker"
+                summary={
+                  <div className="flex flex-col gap-2 mt-2">
+                    <p>A full-stack AI application that helps support teams analyze customer-service tickets without writing SQL. The system ingests a CSV dataset, validates the schema, stores the records in SQLite, answers natural-language questions, and highlights potentially problematic tickets.</p>
+                    <p>The application uses an LLM only to understand the user&apos;s question and produce a restricted analytics plan. Pydantic validates that plan, while deterministic Python code performs the actual calculations. This improves reliability and prevents the model from directly generating unsafe or unpredictable SQL.</p>
+                  </div>
+                }
+                link="https://github.com/johnapatel/support-desk-assessment"
+                type="Full-Stack AI App"
+                github="https://github.com/johnapatel/support-desk-assessment"
+              />
+            </div>
+            
+            <div className="col-span-12">
+              <FeaturedProject
                 title="EchoMind: AI-Powered Digital Persona Reconstruction Platform"
                 img={echomindPic}
                 tools="Next.js, TypeScript, React, Gemini API"
