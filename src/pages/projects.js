@@ -50,7 +50,7 @@ export default function Projects() {
                     <li>Implemented prompt engineering and context management for consistent persona-based responses.</li>
                   </ul>
                 }
-                link="/"
+                link="https://github.com/Johnapatel/Echomind"
                 type="Full-Stack AI App"
                 github="https://github.com/Johnapatel/Echomind"
               />
@@ -62,7 +62,7 @@ export default function Projects() {
                 img={smartmartPic}
                 tools="Python, Pandas, PostgreSQL, SQL, Matplotlib"
                 summary="Built an end-to-end ETL pipeline in Python to clean, transform, and load 20,000+ retail sales records into a PostgreSQL star-schema data warehouse, optimizing SQL-based analytics."
-                link="/"
+                link="https://github.com/Johnapatel/"
                 type="Data Engineering"
                 github="https://github.com/Johnapatel/"
               />
@@ -73,7 +73,7 @@ export default function Projects() {
                 img={mlnutriPic}
                 tools="Python, Pandas, NumPy, Scikit-learn"
                 summary="Built a Python data pipeline handling 1,200+ healthcare records. Trained regression (R² 0.94) and classification (88% acc) models to predict custom diets and recommend diet types."
-                link="/"
+                link="https://github.com/Johnapatel/"
                 type="Applied Machine Learning"
                 github="https://github.com/Johnapatel/"
               />
@@ -91,7 +91,7 @@ export default function Projects() {
                     <li>Designed backend APIs and database schema to support scalable user interactions.</li>
                   </ul>
                 }
-                link="/"
+                link="https://github.com/Johnapatel/"
                 type="Full-Stack Web App"
                 github="https://github.com/Johnapatel/"
               />
@@ -103,7 +103,7 @@ export default function Projects() {
                 img={gymPic}
                 tools="Java, Android SDK"
                 summary="A mobile fitness tracker built with Java and Android SDK for workout planning and progress tracking. Features include a BMI calculator, exercise search/filter, local data storage, and comprehensive analytics to track workout progress and exercise volume."
-                link="/"
+                link="https://github.com/Johnapatel/"
                 type="Mobile App"
                 github="https://github.com/Johnapatel/"
               />
