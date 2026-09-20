@@ -7,6 +7,8 @@ import mlnutriPic from '../../public/mlnutri.png'
 import wellnestPic from '../../public/wellnest.png'
 import gymPic from '../../public/gym.png'
 import smartmartPic from '../../public/smartmart.png'
+import supportDeskPic from '../../public/support-desk.png'
+
 
 export default function Projects() {
   return (
@@ -22,7 +24,7 @@ export default function Projects() {
             <div className="col-span-12">
               <FeaturedProject
                 title="AI-Powered Support Desk Analytics Platform"
-                img={null}
+                img={supportDeskPic}
                 tools="Python, FastAPI, Streamlit, SQLite, Pydantic, Ollama (Qwen2.5:7B), Groq, Uvicorn, Docker"
                 summary={
                   <div className="flex flex-col gap-2 mt-2">
