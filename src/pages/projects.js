@@ -52,7 +52,7 @@ export default function Projects() {
                 }
                 link="/"
                 type="Full-Stack AI App"
-                github="/"
+                github="https://github.com/Johnapatel/Echomind"
               />
             </div>
             
@@ -64,7 +64,7 @@ export default function Projects() {
                 summary="Built an end-to-end ETL pipeline in Python to clean, transform, and load 20,000+ retail sales records into a PostgreSQL star-schema data warehouse, optimizing SQL-based analytics."
                 link="/"
                 type="Data Engineering"
-                github="/"
+                github="https://github.com/Johnapatel/"
               />
             </div>
             <div className="col-span-6">
@@ -75,7 +75,7 @@ export default function Projects() {
                 summary="Built a Python data pipeline handling 1,200+ healthcare records. Trained regression (R² 0.94) and classification (88% acc) models to predict custom diets and recommend diet types."
                 link="/"
                 type="Applied Machine Learning"
-                github="/"
+                github="https://github.com/Johnapatel/"
               />
             </div>
             
@@ -93,7 +93,7 @@ export default function Projects() {
                 }
                 link="/"
                 type="Full-Stack Web App"
-                github="/"
+                github="https://github.com/Johnapatel/"
               />
             </div>
 
@@ -105,7 +105,7 @@ export default function Projects() {
                 summary="A mobile fitness tracker built with Java and Android SDK for workout planning and progress tracking. Features include a BMI calculator, exercise search/filter, local data storage, and comprehensive analytics to track workout progress and exercise volume."
                 link="/"
                 type="Mobile App"
-                github="/"
+                github="https://github.com/Johnapatel/"
               />
             </div>
           </div>
